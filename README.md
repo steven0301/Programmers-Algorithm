@@ -4,4 +4,4 @@
 
 |분류|문제|풀이|설명|
 |:---:|:---:|:---:|:---:|
-|해시|[완주하지 못한 선수](https://programmers.co.kr/learn/courses/30/lessons/42576?language=java)|[Java](https://github.com/steven0301/Programmers-Algorithm/blob/master/java/finish.java)||
+|해시|[완주하지 못한 선수](https://programmers.co.kr/learn/courses/30/lessons/42576?language=java)|[Java](https://github.com/steven0301/Programmers-Algorithm/blob/master/java/finish.java)||
