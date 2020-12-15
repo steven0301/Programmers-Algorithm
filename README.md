@@ -6,4 +6,4 @@
 |:---:|:---|:---:|:---:|:---:|
 |해시|[완주하지 못한 선수](https://programmers.co.kr/learn/courses/30/lessons/42576?language=java)|[Java](https://github.com/steven0301/Programmers-Algorithm/blob/master/java/highkit_finish.java)|||
 |해시|[전화번호 목록](https://programmers.co.kr/learn/courses/30/lessons/42577?language=java)|[Java](https://github.com/steven0301/Programmers-Algorithm/blob/master/java/highkit_phone_book.java)|||
-|해시|[위장](https://programmers.co.kr/learn/courses/30/lessons/42578?language=java)|[Java](https://github.com/steven0301/Programmers-Algorithm/blob/master/java/highkit_disguise.java)|||
+|해시|[위장](https://programmers.co.kr/learn/courses/30/lessons/42578?language=java)|[Java](https://github.com/steven0301/Programmers-Algorithm/blob/master/java/highkit_disguise.java)||[Java](https://github.com/steven0301/Programmers-Algorithm/blob/master/java-wrong/highkit_disguise.java)|
