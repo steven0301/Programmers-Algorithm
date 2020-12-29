@@ -16,3 +16,4 @@
 |완전탐색|Level1|[모의고사](https://programmers.co.kr/learn/courses/30/lessons/42840?language=java)|[Java](https://github.com/steven0301/Programmers-Algorithm/blob/master/java-correct/mock_exam.java)|||
 |완전탐색|Level2|[소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839?language=java)|[Java](https://github.com/steven0301/Programmers-Algorithm/blob/master/java-correct/binary_prime_number.java)|||
 |완전탐색|Level2|[카펫](https://programmers.co.kr/learn/courses/30/lessons/42842?language=java)|[Java](https://github.com/steven0301/Programmers-Algorithm/blob/master/java-correct/carpet.java)|||
+|그리디 알고리즘|Level1|[체육복](https://programmers.co.kr/learn/courses/30/lessons/42862?language=java)|[Java](https://github.com/steven0301/Programmers-Algorithm/blob/master/java-correct/pe_kit.java)|||
