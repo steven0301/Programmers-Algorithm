@@ -20,8 +20,8 @@ class Solution {
             
             int second = list.get(1);
             System.out.println("second : "+ second);
-            list.remove(0);
             list.remove(1);
+            list.remove(0);
             
             for(int e : list){
                 System.out.println(String.format("e : %d", e));
