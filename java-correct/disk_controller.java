@@ -17,16 +17,28 @@ class Solution {
         for (int i = 0; i < jobs.length; i++) {
             list.add(pq.poll());
         }
+
+        // 작업 우선순위 큐 없이, list 입력후 정렬해도 된다.
+        // List<Job> list = new ArrayList<>();
+        // for (int i = 0; i < jobs.length; i++) {
+        //     // list.add(pq.poll());
+        //     list.add(new Job(jobs[i][0], jobs[i][1]));
+        // }
+        // Collections.sort(list);
         
+        // 현재시간
         int time = 0;
+        
         while (list.size()>0) {
             for (int i = 0; i < list.size(); i++) {
+                // duration을 우선시 하지만, 만족하는 것이 없으면 어쩔 수 없이 시작점을 비교한다.
                 if (time >= list.get(i).start) {
                     time += list.get(i).duration;
                     answer += time - list.get(i).start;
                     list.remove(i);
                     break;
                 }
+                // 중요 : i를 끝까지 순회했는데, 만족하는 것이 없을 경우 time 증가.
                 if (i == list.size()-1) time++;
             }
         }
