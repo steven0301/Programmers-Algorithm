@@ -1,31 +1,50 @@
-import java.util.Arrays;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.LinkedList;
 import java.util.PriorityQueue;
 
 class Solution {
     public int solution(int[][] jobs) {
         int answer = 0;
         
-        Arrays.sort(jobs, (o1, o2) -> o1[0] - o2[0]);
-        
-        PriorityQueue<Job> pqueue = new PriorityQueue<>();
+        // 작업 대기 큐 : start 오름차순
+        LinkedList<Job> waitingQueue = new LinkedList<>();
         for(int i=0; i<jobs.length ;i++){
-            pqueue.add(new Job(jobs[i][0], jobs[i][1]));
+            waitingQueue.offer(new Job(jobs[i][0], jobs[i][1]));
         }
         
-        for(Job e : pqueue){
-            System.out.println(e.toString());
-        }
-        
-        int end = 0;
-        for(Job e : pqueue){
-            end = e.getStart() + e.getDuration();
-            if(end > e.getStart()) {
-                end += e.getDuration();
+        Collections.sort(waitingQueue, new Comparator<Job>(){
+            public int compare(Job j1, Job j2){
+                // return j1.getStart().compareTo(j2.getStart());
+                return j1.getStart() - j2.getStart();
             }
-            answer += end;
+        });
+        
+        // 작업 우선순위 큐 : Comparable에 의해, duration 오름차순
+        PriorityQueue<Job> pqueue = new PriorityQueue<>();
+        
+        int end = waitingQueue.peek().getStart();
+        int init = waitingQueue.peek().getStart();
+        for(int i=0; i<waitingQueue.size(); ){
+            while(!waitingQueue.isEmpty() && waitingQueue.peek().getStart() <= end){
+                pqueue.add(waitingQueue.poll());
+            }
+            
+            if(pqueue.isEmpty()) {
+                end++;
+                continue;
+            }
+            
+            while(!pqueue.isEmpty()){
+                Job job = pqueue.poll();
+                // System.out.println(job);
+                end += job.getDuration();
+                answer += end - job.getStart();
+                i++;
+            }
         }
         
-        answer /= 3;
+        answer /= jobs.length;
         return answer;
     }
 }
@@ -47,14 +66,10 @@ class Job implements Comparable<Job>{
         return this.duration;
     }
     
+    @Override
     public int compareTo(Job j){
-        if(this.duration < j.duration){
-            return -1;
-        }else if(this.duration == j.duration){
-            return 0;
-        }else {
-            return 1;
-        }
+        if(this.duration < j.duration) return -1;
+        else return 1;
     }
     
     public String toString(){
