@@ -19,6 +19,8 @@ public class ramen_factory {
         }
         Collections.sort(list);
 
+        // 중요 : stock을 하루에 1씩 사용하고, k일 까지 stock이 남이있다.
+        // -> 재고량이 stock >= k 이면 된다는 의미
         while(stock < k){
             for(int i=0; i<list.size() ;i++){
                 if(stock >= list.get(i).date){
@@ -29,7 +31,6 @@ public class ramen_factory {
                 }
             }
         }
-
         return answer;
     }
 }
