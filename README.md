@@ -22,6 +22,7 @@
 |완전탐색|Level2|[소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839?language=java)|[Java](https://github.com/steven0301/Programmers-Algorithm/blob/master/java-correct/binary_prime_number.java)||
 |완전탐색|Level2|[카펫](https://programmers.co.kr/learn/courses/30/lessons/42842?language=java)|[Java](https://github.com/steven0301/Programmers-Algorithm/blob/master/java-correct/carpet.java)||
 |그리디 알고리즘|Level1|[체육복](https://programmers.co.kr/learn/courses/30/lessons/42862?language=java)|[Java](https://github.com/steven0301/Programmers-Algorithm/blob/master/java-correct/pe_kit.java)||
+|그리디 알고리즘|Level2|[&#42;&#42; 큰 수 만들기](https://programmers.co.kr/learn/courses/30/lessons/42883?language=java)|[Java : Stack](https://github.com/steven0301/Programmers-Algorithm/blob/master/java-correct/big_number.java)||
 |구현|Level1|[2016](https://programmers.co.kr/learn/courses/30/lessons/12906?language=java)|[Java : GregorianCalendar](https://github.com/steven0301/Programmers-Algorithm/blob/master/java-correct/year_2016_gregorian.java)<br/>[Java : Date](https://github.com/steven0301/Programmers-Algorithm/blob/master/java-correct/year_2016_date.java)||
 |구현|Level1|[&#42; 이상한 문자 만들기](https://programmers.co.kr/learn/courses/30/lessons/12930?language=java)|[Java](https://github.com/steven0301/Programmers-Algorithm/blob/master/java-correct/strange_string.java)||
 |구현|Level1|[&#42; 같은 숫자는 싫어](https://programmers.co.kr/learn/courses/30/lessons/12906?language=java)|[Java](https://github.com/steven0301/Programmers-Algorithm/blob/master/java-correct/dont_like_the_same_number.java)||
