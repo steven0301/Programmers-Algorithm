@@ -11,6 +11,7 @@
 |스택/큐|Level2|[기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586?language=java)|[Java](https://github.com/steven0301/Programmers-Algorithm/blob/master/java-correct/develop.java)||
 |스택/큐|Level2|[&#42; 다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/42583?language=java)|[Java](https://github.com/steven0301/Programmers-Algorithm/blob/master/java-correct/truck.java)||
 |스택/큐|Level2|[프린터](https://programmers.co.kr/learn/courses/30/lessons/42587?language=java)|[Java](https://github.com/steven0301/Programmers-Algorithm/blob/master/java-correct/printor.java)||
+|스택/큐|Level2|[올바른 괄호](https://programmers.co.kr/learn/courses/30/lessons/12909?language=java)|[Java](https://github.com/steven0301/Programmers-Algorithm/blob/master/java-correct/bracket.java)||
 |힙|Level2|[더 맵개](https://programmers.co.kr/learn/courses/30/lessons/42626?language=java)|[Java](https://github.com/steven0301/Programmers-Algorithm/blob/master/java-correct/more_spicy.java)|[Java](https://github.com/steven0301/Programmers-Algorithm/blob/master/java-wrong/more_spicy.java)||
 |힙|Level2|&#42; 라면공장|[Java](https://github.com/steven0301/Programmers-Algorithm/blob/master/java-correct/ramen_factory.java)|||
 |힙|Level3|[&#42;&#42; 디스크 컨트롤러](https://programmers.co.kr/learn/courses/30/lessons/42627?language=java)|[Java](https://github.com/steven0301/Programmers-Algorithm/blob/master/java-correct/disk_controller.java)|[Java](https://github.com/steven0301/Programmers-Algorithm/blob/master/java-wrong/disk_controller.java)||
